@@ -1,0 +1,44 @@
+* {
+  font-family: 'Megrim', cursive;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 99vw;
+  height: 99vh;
+}
+
+#header {
+  font-size: 50px;
+  opacity: 70%;
+}
+
+.numCards {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  width: 99vw;
+  background: rgba(181, 214, 214, 0.7);
+}
+
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.numCards h6, p {
+  font-size: 25px;
+  padding: 10px;
+}
